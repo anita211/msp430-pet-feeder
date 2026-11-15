@@ -55,7 +55,7 @@
 | **USCI UART** | Envio da distância para o computador |
 
 ```
-Dispenser-Inteligente-Pet/
+msp430-pet-feeder/
 ├── main.c        # menu, botões e lógica de liberação
 ├── sensor.c / .h # HC-SR04 (TA0 + TA1)
 ├── motor.c / .h  # servo (TA2)
@@ -72,7 +72,7 @@ Dispenser-Inteligente-Pet/
 1. Instale o [Code Composer Studio](https://www.ti.com/tool/CCSTUDIO).
 2. Clone o repositório:
    ```bash
-   git clone https://github.com/anita211/Dispenser-Inteligente-Pet.git
+   git clone https://github.com/anita211/msp430-pet-feeder.git
    ```
 3. No CCS, use **File → Import → CCS Projects** e selecione a pasta.
 4. Compile e grave na LaunchPad MSP430F5529 pelo debugger USB.
